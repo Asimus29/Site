@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&display=swap');
+
+body {
+    font-family: "Montserrat";
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px; 
+    background: white;
+}
+
+.header img {
+    height: 50px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 25px; 
+}
+
+.nav li {
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.btn {
+    background-color: #7AE5FD;
+    color: black;
+    border: none;
+    font-size: 15px; 
+    min-height: 30px;
+    max-height: 50px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "Montserrat";
+}
+
+.fond {
+    background: url('images/9d87e92590ae5ecb611ebe146e21a634.png') center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    padding-left: 1.25em;
+    color: black;
+}
+
+.fond-content h1 {
+    font-size: 3.5em;
+    margin-bottom: 0.625em; 
+    width: 50%;
+    line-height: 50px; 
+    color: white;
+}
+
+.fond-content p {
+    font-size: 1.2em;
+    width: 40%;
+    margin-bottom: 1.25em;
+}
+
+.btn1 {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 0.625em 1.25em; 
+    border-radius: 1.25em;
+    cursor: pointer;
+}
+
+.paragraph {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.paragraph h1 {
+    font-size: 3.125em;
+    width: 50%;
+    margin-bottom: 0.3125em; 
+}
+
+.paragraph h3 {
+    width: 50%;
+    font-size: 1.25em;
+    margin-bottom: 0.125em;
+}
+
+.paragraph p {
+    font-size: 15px;
+    color: darkcyan;
+}
+
+.info-section {
+    padding: 2vh 20vw;
+    background: white;
+}
+
+.info-block {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    gap: 1.25em;
+    margin-bottom: 6.25em;
+}
+
+.info-text h2 {
+    font-size: 3em;
+    margin-bottom: 0.625em;
+}
+
+.info-text p {
+    width: 90%;
+    margin: 0;
+}
+
+.info-block img {
+    max-width: 30em;
+    border-radius: 0.625em;
+}
+
+.btn2 {
+    display: block;
+    margin: 1.25em auto;
+    background-color: #7AE5FD;
+    color: black;
+    border: none;
+    padding: 0.625em 1.25em;
+    border-radius: 1.25em;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 48em) {
+    .info-block {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
